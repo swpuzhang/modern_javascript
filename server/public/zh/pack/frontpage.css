@@ -1,0 +1,255 @@
+
+/* line 1 : D:\work\books\modern_js\server\tmp\zh\frontpage.styl */
+
+/* line 1 : D:\work\books\modern_js\server\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : D:\work\books\modern_js\server\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : D:\work\books\modern_js\server\node_modules\rupture\rupture\index.styl */
+
+/* line 267 : D:\work\books\modern_js\server\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : D:\work\books\modern_js\server\node_modules\rupture\rupture\index.styl */
+
+/* line 267 : D:\work\books\modern_js\server\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : D:\work\books\modern_js\server\node_modules\rupture\rupture\index.styl */
+
+/* line 267 : D:\work\books\modern_js\server\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+
+/* line 1 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content {
+  background: #fff;
+  outline: none;
+}
+@media (min-width: media_step_3) {
+
+/* line 5 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content {
+    line-height: 20px;
+  }
+}
+
+/* line 8 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content ul > li {
+  margin: 0;
+}
+
+/* line 11 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content ul > li::before {
+  content: "";
+}
+@media (max-width: media_step_1) {
+
+/* line 14 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content {
+    margin-bottom: 0;
+    padding: 0 16px;
+  }
+}
+@media phone {
+
+/* line 18 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content {
+    margin-top: 34px;
+  }
+}
+
+/* line 21 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__container {
+  position: relative;
+}
+
+/* line 24 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__container:before {
+  content: '';
+  height: 54px;
+  position: absolute;
+  top: -54px;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 100%);
+}
+
+/* line 33 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__container:first-child:before {
+  display: none;
+}
+@media phone {
+
+/* line 37 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content__container:before {
+    display: none;
+  }
+}
+
+/* line 40 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__inner {
+  max-width: 920px;
+  margin: 0;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+@media phone {
+
+/* line 46 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content__inner {
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+}
+
+/* line 50 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__part {
+  min-width: 80px;
+  display: inline-block;
+  margin-bottom: 17px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #9b6b6b;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 64 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* line 69 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__description {
+  max-width: 490px;
+  margin-bottom: 24px;
+}
+
+/* line 73 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content__description p {
+  margin: 0 0 8px 0;
+}
+
+/* line 76 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list {
+  counter-reset: one;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 81 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list__title {
+  position: relative;
+  font-family: font_en;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+/* line 91 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list__link {
+  color: text_grey_dark;
+}
+
+/* line 94 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list__item {
+  list-style: none;
+  counter-increment: one;
+}
+
+/* line 98 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list-sub {
+  padding: 0;
+  margin: 0;
+  counter-reset: two;
+  margin-bottom: 24px;
+  list-style-type: none;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  -moz-columns: 3;
+       columns: 3;
+}
+@media tablet {
+
+/* line 109 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content .list-sub {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+@media phone {
+
+/* line 113 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content .list-sub {
+    -moz-columns: 1;
+         columns: 1;
+  }
+}
+
+/* line 117 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list-sub__title {
+  position: relative;
+  padding-left: 38px;
+  margin-bottom: 2px;
+}
+
+/* line 125 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list-sub__title:before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-family: fixed_width_font;
+  font-size: 12px;
+  line-height: 16px;
+  content: counter(one) '.' counter(two);
+}
+
+/* line 137 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list-sub__link {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/* line 141 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list-sub__item {
+  counter-increment: two;
+  page-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+/* line 147 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+@media phone {
+
+/* line 148 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content .list-sub__item_phone_hidden {
+    display: none;
+  }
+}
+
+/* line 151 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+.frontpage-content .list-sub__more {
+  cursor: pointer;
+  display: none;
+  margin-left: 38px;
+  font-size: 16px;
+  line-height: 23px;
+}
+@media phone {
+
+/* line 158 : D:\work\books\modern_js\server\modules\frontpage\templates\blocks\_frontpage-content\index.styl */
+  .frontpage-content .list-sub__more {
+    display: inline-block;
+  }
+}
+
+
+/*# sourceMappingURL=frontpage.css.map?dbddb467edb8455c5541*/
